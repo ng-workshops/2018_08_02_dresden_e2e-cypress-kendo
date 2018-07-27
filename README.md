@@ -4,6 +4,10 @@ Run [Cypress](https://www.cypress.io) e2e tests against you Angular app.
 
 Make sure to start your angular app before running the tests. Normally this is done by the command `npm start`.
 
+## Setup
+
+$ npm install
+
 ## Running end-to-end tests
 
 Run `npm test` to execute the whole end-to-end tests.
