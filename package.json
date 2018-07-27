@@ -1,0 +1,16 @@
+{
+  "name": "e2e-cypress-kendo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cypress open",
+    "test": "cypress run",
+    "test:kendo": "cypress run --spec 'cypress/integration/kendo/**/*'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "3.0.2"
+  }
+}
